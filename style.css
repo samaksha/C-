@@ -1,0 +1,33 @@
+#container{
+    display:flex;
+    flex-direction: column;
+    margin-left: 50%;
+    margin-right: auto;
+}
+
+#box1{
+    width: 100px;
+    height: 200px;
+    background-color: red;
+    /* text-align: center; */
+    /* color: green; */
+}
+
+#box2{
+    width: 100px;
+    height: 200px;
+    background-color: red;
+}
+
+#box3{
+    width: 100px;
+    height: 200px;
+    background-color: red;
+}
+
+#box{
+    width:200px;
+    height: 200px;
+    background-color: red;;
+}
+
