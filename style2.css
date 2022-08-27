@@ -1,0 +1,53 @@
+#calc {
+  margin-left: 200px;
+  width: 300px;
+  height: 500px;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+#calc > * {
+  display: flex;
+  flex: 1 1 0;
+  border-width: 10px;
+  /* justify-content: center; */
+}
+
+#row21 {
+  justify-content: center;
+}
+.operand {
+  background-color: rgb(250, 246, 246);
+  justify-content: center;
+  text-align: center;
+}
+
+.operator {
+  background-color: orange;
+  justify-content: center;
+  text-align: center;
+}
+.pad {
+  flex-direction: row;
+}
+.pad > * {
+  flex: 1 1 0;
+}
+
+.pad2 {
+  flex-direction: row;
+}
+#zero {
+  flex: 2 1 0;
+}
+#dot {
+  flex: 1 1 0;
+}
+#equalTo {
+  flex: 1 1 0;
+}
+
+.whiteborder {
+  margin: 1px;
+}

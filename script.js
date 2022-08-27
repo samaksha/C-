@@ -80,8 +80,15 @@
 // console.log(input);
 // input.addEventListener("keypress",func());
 
+//Event propagation in JS (inner->outer->document)
+// var outer = document.getElementById("outer");
+// outer.addEventListener("click", (event) => {
+//   console.log("outer");
+// });
 
-var info = {city:"san"};
-info.city = undefined;
-console.log(info.city);
+// var inner = document.getElementById("inner");
+// inner.addEventListener("click", (event) => {
+//   console.log("inner");
+//   event.stopPropagation();
+// });
 
