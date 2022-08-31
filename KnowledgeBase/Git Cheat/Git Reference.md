@@ -7,6 +7,8 @@ Some Git Commands
 git show-ref
 git stash
 git add .
+git reset .
+git restore --staged .
 git commit -m "..."
 git remote -v
 git remote add orgin https://github.com/.../repo.git
