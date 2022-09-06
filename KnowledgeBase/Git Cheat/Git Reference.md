@@ -10,6 +10,7 @@ git add .
 git reset .
 git restore --staged .
 git commit -m "..."
+git push origin -d feature (Delete feature branch in origin)
 git remote -v
 git remote add orgin https://github.com/.../repo.git
 git remote add upstream https://github.com/.../repo.git
@@ -20,6 +21,6 @@ git checkout feature
 git merge feature 
 git pull upstream main (pull upstream main to current local branch)
 git fetch --all --prune (Get all the commits even the deleted ones)
-git reset --hard upstream/main (now there are equal to the upstream/main branch)
+git reset --hard upstream/main (now there are equal to the upstream/main branch, use --soft to keep all the changes) 
 git rebase -i fc83ffb5856ce8ec7f5818e98c4013931d7d5794 (the commit below the commits you want to squash and pick)
 ```
