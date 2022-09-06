@@ -15,6 +15,7 @@ git remote add orgin https://github.com/.../repo.git
 git remote add upstream https://github.com/.../repo.git
 git reset fc83ffb5856ce8ec7f5818e98c4013931d7d5794
 git branch feature
+git branch -r/-a (View branches)
 git checkout feature
 git merge feature 
 git pull upstream main (pull upstream main to current local branch)
