@@ -5,7 +5,8 @@ Some Git Commands
 -Create pull request from github from the forked repo
 ```
 git show-ref
-git stash
+git stash 
+git stash pop 0
 git add .
 git reset .
 git restore --staged .
