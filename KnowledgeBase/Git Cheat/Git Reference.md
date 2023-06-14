@@ -26,3 +26,9 @@ git reset --hard upstream/main (now there are equal to the upstream/main branch,
 git rebase -i fc83ffb5856ce8ec7f5818e98c4013931d7d5794 (the commit below the commits you want to squash and pick)
 git checkout origin/telehealth-refactoring  -- <path-to-file>.txt (make changes to local file)
 ```
+
+
+add new credentials to windows
+```
+Click on "Manage Windows Credentials".
+```
